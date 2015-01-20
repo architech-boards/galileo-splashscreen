@@ -1,1 +1,4 @@
-# galileo-splashscreen
+galileo-splashscreen
+====================
+
+galileo splashscreen

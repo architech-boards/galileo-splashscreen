@@ -1,0 +1,75 @@
+<style type="text/css">
+    .TFtable{
+        width:100%;
+        border-collapse:collapse;
+    }
+    .TFtable td{
+        padding:2px;
+        border:#AAAAAA 1px solid;
+    }
+    /* provide some minimal visual accomodation for IE8 and below */
+    .TFtable tr{
+        background: #CCCCCC;
+    }
+    /* Define the background color for all the ODD background rows */
+    .TFtable tr:nth-child(odd){
+        background: #CCCCCC;
+    }
+    /* Define the background color for all the EVEN background rows */
+    .TFtable tr:nth-child(even){
+        background: #FFFFFF;
+    }
+</style>
+<b>Galileo</b> is a low-cost development board based on the Xilinx Zynq-7000 All Programmable SoC. Its unique design allows it to be used as both a stand-alone evaluation board for basic SoC experimentation, or combined with a carrier card as an embeddable system-on-module (SOM)<br>
+Specifications:
+<table class="TFtable">
+    <tr>
+        <td valign="top">
+            <b>SoC</b>
+        </td>
+        <td>
+            Intel Quark SoC X1000 Application Processor
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Memory</b>
+        </td>
+        <td>
+            256 MB DDR3 RAM<br>
+            8 MByte Legacy SPI Flash<br>
+            Micro SD card interface
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Communications</b>
+        </td>
+        <td>
+            10/100/1000 Ethernet<br>
+            USB 2.0 Host and Client<br>
+            RS-232 Serial Port 3-pin 3.5mm jack (not audio)
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Shield Interface</b>
+        </td>
+        <td>
+            Complies with Arduino Uno Revision 3 shield pinout.
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Other</b>
+        </td>
+        <td>
+            JTAG Debug Port<br>
+            GPIO Expander<br>
+            ICSP<br>
+            Full PCI Express mini-card slot<br>
+        </td>
+    </tr>
+
+</table>
+

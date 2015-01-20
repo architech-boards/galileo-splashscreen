@@ -1,0 +1,2 @@
+The Intel® Galileo Board provides a programmable control PCB for the maker
+community, students, and professional developers
