@@ -1,5 +1,5 @@
 #!/bin/bash
 cd ../yocto/meta-clanton_v1.0.1
-source poky/oe-init-build-env
+source poky/oe-init-build-env yocto_build
 gnome-terminal
 exit 0

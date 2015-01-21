@@ -114,7 +114,7 @@ done
 ###########################################################################################################
 # conf/local.conf customization
 
-cd ${BASEROOT_SDK}/yocto/yocto_build
+cd ${BASEROOT_SDK}/yocto/meta-clanton_v1.0.1/yocto_build
 set_cpu_localconf ${NR_CPUS} ./conf
 
 if [ -n "`grep "^PACKAGE_CLASSES" conf/local.conf`" ]
