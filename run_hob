@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ../yocto
-source poky/oe-init-build-env
+cd ../yocto/meta-clanton_v1.0.1
+source poky/oe-init-build-env yocto_build
 hob
 exit 0
