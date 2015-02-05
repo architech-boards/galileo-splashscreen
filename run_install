@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+
 SDK_BOARD="galileo"
 SDK_BRANCH="dylan"
 
@@ -104,6 +104,11 @@ do
 
             ./patches_v1.0.4/patch.meta-clanton.sh
             rm -rf patches_v1.0.4
+
+            # fix grub_0.97.bb recipe
+            sed -i "s|vathpela|architech-backup|g" meta-clanton_v1.0.1/meta-clanton-bsp/recipes-bsp/grub/grub_0.97.bb
+            sed -i "s|5775f32a6268dead6939d01cbe72f23972f6d3c0|f72d4d83931f7a6427771b480101e251a57ac1b8|g" meta-clanton_v1.0.1/meta-clanton-bsp/recipes-bsp/grub/grub_0.97.bb
+
             cd ${BASEROOT_SDK}
             sed -i "s|yocto:$((LOCAL_VERSION-1))|yocto:${LOCAL_VERSION}|g" conf/versions
         ;;
